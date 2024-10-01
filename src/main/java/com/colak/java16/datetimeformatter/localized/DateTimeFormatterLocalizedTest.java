@@ -10,7 +10,7 @@ import java.time.format.FormatStyle;
 // See <a href="https://medium.com/@mobile.prabeensoti/guide-to-data-time-formatter-in-java17-65d498f5d494
 @Slf4j
 @UtilityClass
-public class DateTimeFormatterLocalizedTest {
+class DateTimeFormatterLocalizedTest {
     private static final LocalDate localDate = LocalDate.of(2024, 1, 30);
 
     public static void main() {

@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-// See <a href="https://medium.com/@luketong/are-you-still-using-simpledateformat-in-multi-thread-environment-36507d19917e">...</a>
+// See https://medium.com/@luketong/are-you-still-using-simpledateformat-in-multi-thread-environment-36507d19917e
 @Slf4j
 public class SimpleDateFormatTest {
 

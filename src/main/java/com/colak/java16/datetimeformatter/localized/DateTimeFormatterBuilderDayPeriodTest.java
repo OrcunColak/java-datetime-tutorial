@@ -13,7 +13,7 @@ import java.util.Map;
 // See https://rathod-ajay.medium.com/a-comprehensive-journey-from-java-8-to-java-21-with-code-examples-of-essential-api-enhancements-6817d2ab3ba8
 @Slf4j
 @UtilityClass
-public class DateTimeFormatterBuilderDayPeriodTest {
+class DateTimeFormatterBuilderDayPeriodTest {
 
     static Map<TextStyle, Locale> map = Map.of(
             TextStyle.FULL, Locale.FRENCH,

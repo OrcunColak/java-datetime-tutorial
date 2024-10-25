@@ -1,4 +1,4 @@
-package com.colak.java8.zoneddatetime;
+package com.colak.java8.date;
 
 import java.time.LocalDate;
 import java.time.ZoneId;

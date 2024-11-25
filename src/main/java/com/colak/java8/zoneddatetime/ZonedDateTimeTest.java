@@ -20,21 +20,6 @@ import java.util.stream.Stream;
 // See https://levelup.gitconnected.com/java-date-and-time-api-mastering-zoned-and-offset-date-time-for-effective-time-zone-management-ae9683cde554
 class ZonedDateTimeTest {
 
-    private static void of() {
-        ZonedDateTime example16 = ZonedDateTime.of(2024, 9, 4, 7, 15,
-                30, 50000, ZoneId.of("Europe/Kyiv"));
-        // 2024-09-04T07:15:30.000050+03:00[Europe/Kyiv]
-
-        ZonedDateTime example17 = ZonedDateTime.of(LocalDate.of(2024, 9, 4),
-                LocalTime.NOON, ZoneId.of("Europe/Kyiv"));
-        // 2024-09-04T12:00+03:00[Europe/Kyiv]
-
-        ZonedDateTime example18 = ZonedDateTime.of(
-                LocalDateTime.of(2024, 9, 4, 7, 10, 10),
-                ZoneId.of("Europe/Kyiv"));
-        // 2024-09-04T07:10:10+03:00[Europe/Kyiv]
-    }
-
     // This method combines a LocalDateTime and a ZoneId to produce a ZonedDateTime.
     // It assumes the provided ZoneId is valid for the given LocalDateTime without performing additional validation checks.
     private static void ofLocal() {

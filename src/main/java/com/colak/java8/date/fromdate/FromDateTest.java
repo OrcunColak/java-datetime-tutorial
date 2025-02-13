@@ -1,9 +1,9 @@
-package com.colak.java8.date;
+package com.colak.java8.date.fromdate;
 
 import java.util.Calendar;
 import java.util.Date;
 
-public class FromDate {
+public class FromDateTest {
 
     public static int getYear(Date date) {
         Calendar calendar = Calendar.getInstance();

@@ -1,4 +1,4 @@
-package com.colak.java8.date;
+package com.colak.java8.date.todate;
 
 import java.time.LocalDate;
 import java.time.ZoneId;
@@ -8,7 +8,8 @@ import java.util.Date;
 public class ZonedDateTimeToDateTest {
 
     public static void main() {
-        ZonedDateTime zonedDateTime = LocalDate.of(1960, 7, 11).atStartOfDay(ZoneId.systemDefault());
+        LocalDate localDate = LocalDate.of(1960, 7, 11);
+        ZonedDateTime zonedDateTime = localDate.atStartOfDay(ZoneId.systemDefault());
         System.out.println(zonedDateTime);
         // 1960-07-11T00:00+02:00[Europe/Istanbul]
 

@@ -5,9 +5,9 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.Date;
 
-public class ZonedDateTimeToDateTest {
+public class ConvertZonedDateTimeToDateTest {
 
-    public static void main() {
+    public static void main(String[] args) {
         LocalDate localDate = LocalDate.of(1960, 7, 11);
         ZonedDateTime zonedDateTime = localDate.atStartOfDay(ZoneId.systemDefault());
         System.out.println(zonedDateTime);

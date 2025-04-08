@@ -4,11 +4,12 @@ import java.time.YearMonth;
 import java.time.ZoneId;
 import java.util.Date;
 
-public class YearMonthToDateTest {
+public class ConvertYearMonthToDateTest {
 
     public static Date toDate(YearMonth yearMonth) {
-        return Date.from(yearMonth.atDay(1).atStartOfDay(
-                ZoneId.systemDefault()).toInstant());
+        return Date.from(yearMonth.atDay(1)
+                .atStartOfDay(ZoneId.systemDefault())
+                .toInstant());
     }
 
 }
